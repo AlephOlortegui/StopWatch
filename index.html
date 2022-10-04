@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./smart-clock.svg">
+</head>
+<body>
+    <main>
+        <h2 class="title">Stop Watch</h2>
+        <div class="watch">
+            <div class="time">
+                <span id="minutes">00</span>:
+                <span id="seconds">00</span>:
+                <span id="milli">00</span>
+            </div>
+        </div>
+        <section class="actions">
+            <button id="start">start</button>
+            <button id="stop">stop</button>
+            <button id="reset">reset</button>
+            <button id="lap">lap</button>
+        </section>
+        <section class="list">
+            <ul id="laps">
+            </ul>
+            <button id="clear">clear list</button>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
